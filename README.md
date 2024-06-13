@@ -1,5 +1,5 @@
 # Games of Fugi Mod
-
+Мод - games_of_fugi_donations-1.0.0.jar
 ## Команды
 
 - donations on включение отслеживания донатов.
