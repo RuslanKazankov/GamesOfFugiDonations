@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "games_of_fugi_donations",
+	"version": "${version}",
+	"name": "Games Of Fugi Donations",
+	"description": "Mod for commands to chat from DonationAlerts",
+	"authors": [
+		"Kazankov"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/games_of_fugi_donations/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.kazankov.GamesOfFugiDonationsMod"
+		],
+		"client": [
+			"org.kazankov.GamesOfFugiDonationsModClient"
+		]
+	},
+	"mixins": [
+		"games_of_fugi_donations.mixins.json",
+		{
+			"config": "games_of_fugi_donations.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.kazankov.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"GamesOfFugiDonationsClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
