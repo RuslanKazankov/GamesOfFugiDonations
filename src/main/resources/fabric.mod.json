@@ -8,8 +8,8 @@
 		"Kazankov"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/RuslanKazankov/GamesOfFugiDonations",
+		"sources": "https://github.com/RuslanKazankov/GamesOfFugiDonations"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/games_of_fugi_donations/icon.png",
