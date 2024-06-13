@@ -1,8 +1,17 @@
-# Fabric Example Mod
+# Games of Fugi Mod
 
-## Setup
+## Команды
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- donations on включение отслеживания донатов.
+- donations off выключение отслеживания донатов.
+
+## Доступные команды от донатеров
+
+- /whitelist add NickName
+- /reborn NickName
+
+## Примечание
+При первом запуске команды /donations on мод попросит подключить аккаунт DonationAlerts
 
 ## License
 
